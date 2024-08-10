@@ -1,4 +1,4 @@
-// import logo2 from "../assets/logo2.png";
+// import logotipo5 from "../assets/logotipo5.png";
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 const Nav = () => {
@@ -8,9 +8,11 @@ const Nav = () => {
       <a href="/" className="font-bold text-2xl text-black text-center lg:text-left">
           Elysium <span className="text-white font-black">Amarres</span>
         </a>
-        {/* <div className="mt-3 lg:mt-0">
-            <img src={logo2} alt="logo" className="h-10"/>
-        </div> */}
+        {/* <a href="/">
+          <img src={logotipo5} alt="logo" className="h-12 w-60"/>
+        </a> */}
+        
+        
         <nav className="flex flex-col items-center lg:flex-row gap-3 mt-3 lg:mt-0">
           <a href="/" className="text-white text-lg lg:text-xl uppercase font-bold p-2 hover:rounded-md  hover:cursor-pointer hover:bg-pink-500 hover:text-black">
             Inicio

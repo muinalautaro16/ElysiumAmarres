@@ -1,7 +1,8 @@
-
-const BtnWspp = ({link, getRandomItem}) => {
+// {link, getRandomItem} esto va en el parentesis de la linea de abajo
+const BtnWspp = () => {
   const handleClick = () => {
-    getRandomItem();
+    // getRandomItem();
+    const link = 'https://wa.me/525522696119'
     console.log(link)
     window.open(link, '_blank');
   };

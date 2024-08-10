@@ -1,7 +1,8 @@
-
-const Btn = ({link, getRandomItem}) => {
+// {link, getRandomItem}
+const Btn = () => {
   const handleClick = () => {
-    getRandomItem();
+    // getRandomItem();
+    const link = 'https://wa.me/525522696119'
     console.log(link)
     window.open(link, '_blank');
   };
