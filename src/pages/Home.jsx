@@ -9,15 +9,15 @@ import Footer from "../components/Footer";
 const Home = () => {
   // const {link, getRandomItem} = useFnWspp(['https://wa.me/', 'https://wa.me/']);
   return (
-    <>
-        <Nav />
-        <Banner />
-        <Servicios />
-        <Testimonios />
-        <BtnWspp  />
-        <Footer />
-    </>
-  )
-}
+    <div className="flex flex-col min-h-screen">
+      <Nav />
+      <Banner className="w-full sm:w-3/4 lg:w-1/2 mx-auto"/>
+      <Servicios className="flex-grow" />
+      <Testimonios className="flex-grow" />
+      <BtnWspp className="fixed bottom-4 right-4" />
+      <Footer />
+    </div>
+  );
+};
 
 export default Home

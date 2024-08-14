@@ -18,7 +18,7 @@ const testimonioData = [
 const Testimonios = () => {
   return (
     <div id="testimonios" className="text-center bg-black p-9">
-      <h2 className="text-6xl font-bold text-rose-400 uppercase">Testimonios</h2>
+      <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-rose-400 uppercase">Testimonios</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
         {testimonioData.map((testimonio, index) => (
           <CardTest
@@ -31,4 +31,4 @@ const Testimonios = () => {
   );
 }
 
-export default Testimonios
+export default Testimonios;
