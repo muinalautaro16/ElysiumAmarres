@@ -1,7 +1,6 @@
-const Btn = () => {
+const Btn = ({link, getRandomItem}) => {
   const handleClick = () => {
-    // const link = getRandomItem(); // Descomentar si se usa
-    const link = 'https://wa.me/525522696119';
+    getRandomItem(); // Descomentar si se usa
     console.log(link);
     window.open(link, '_blank');
   };
