@@ -1,9 +1,9 @@
 import Btn from "../components/Btn";
 import useFnWspp from "../hooks/useFnWspp";
 
-
+// 'https://wa.me/529844520396'
 const Banner = () => {
-  const { link, getRandomItem } = useFnWspp(['https://wa.me/529844520396', 'https://wa.me/529844520396']);
+  const { link, getRandomItem } = useFnWspp(['https://wa.me/525522696119','https://wa.me/525522696119']);
 
   return (
     <div className="relative bg-banner bg-center bg-cover w-full h-screen flex flex-col items-center gap-4 justify-center text-center text-white px-4 sm:px-6 md:px-8 lg:px-12">
