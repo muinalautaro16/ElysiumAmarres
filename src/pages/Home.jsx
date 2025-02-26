@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import useFnWspp from "../hooks/useFnWspp";
 
 const Home = () => {
-  const {link, getRandomItem} = useFnWspp(['https://wa.me/525522696119', 'https://wa.me/525522696119']);
+  const {link, getRandomItem} = useFnWspp(['https://wa.me/5492954201374', 'https://wa.me/5492954201374']);
   return (
     <div className="flex flex-col min-h-screen">
       <Nav />
